@@ -1,0 +1,20 @@
+<template name="chat">
+    <div id="chat">
+        <div id="messages">
+        {{#each messages}}
+            <div>
+                <span class="name">{{name}}: </span>{{text}}
+            </div>
+        {{else}}
+            <div class="empty">No chat messages to display.</div>
+        {{/each}}
+        </div>
+        {{#if currentUser}}
+        <div class="input">
+            <form>
+            <input type="text" placeholder="Type something here and press enter!" name="input" />
+            </form>
+        </div>
+        {{/if}}
+    </div>
+</template>

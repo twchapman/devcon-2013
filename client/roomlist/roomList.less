@@ -1,0 +1,23 @@
+@import '../styles/colors.less';
+
+.roomList {
+  display: -webkit-flex;
+  background: #202020;
+  border-bottom: 4px solid #262626;
+}
+
+.roomList > a {
+  color: darken(@white, 20%);
+  -webkit-flex: 0 1 150px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  border-right: 1px solid #262626;
+  text-decoration: none;
+}
+
+.roomList > a:hover, .roomList > a.selected {
+  color: @white;
+  background: #262626;
+  border-bottom: 1px solid #262626;
+}

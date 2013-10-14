@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dddddd;
+  font-family: Helvetica;
+}
+header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 50px;
+  transition: height 0.2s;
+  background: #7300bb;
+  color: #fefefe;
+  -webkit-user-select: none;
+}
+header .brand {
+  width: 200px;
+  font-size: 35px;
+  line-height: 50px;
+  padding-left: 10px;
+  color: #fefefe;
+  text-decoration: none;
+  font-weight: bold;
+}
+header nav {
+  position: absolute;
+  top: 0;
+  right: 200px;
+}
+header nav a {
+  display: inline-block;
+  color: #d8d8d8;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 4px solid #aa22ff;
+  padding: 0 20px;
+  margin: 0 10px;
+}
+header nav a:hover {
+  color: #fefefe;
+  border-bottom: 4px solid #d188ff;
+}
+header button {
+  position: absolute;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid #aa22ff;
+  color: #d8d8d8;
+  font-size: 20px;
+  line-height: 50px;
+}
+header button:hover {
+  color: #fefefe;
+  border-bottom: 4px solid #d188ff;
+}
+main {
+  position: relative;
+  top: 50px;
+}
+#login-buttons {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}

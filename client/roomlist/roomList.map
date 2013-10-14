@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "roomList.js",
+  "sourceRoot": "",
+  "sources": [
+    "roomList.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,KAAA,SAAA;;CAAA,CAAA,CAAW,KAAX;;AACA,CAAA,EAAA,IAAS,sBAAT;CACE,EAAc,CAAd,IAAS;CAAK,CACZ,IAAA;CADY,CAEL,CAAK,CAAZ,EAAA;CAHJ,KACE;CADF,EADA;;CAAA,CAOA,KAAA,CAAQ;CACN,CAAO,EAAP,CAAA,GAAA;CARF,GAOA;CAPA"
+}
