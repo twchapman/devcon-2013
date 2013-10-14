@@ -8,7 +8,7 @@ A simple Meteor chat application made for TechSmith's DevCon 2013.
 
 Installation and Running
 ========================
-1. `curl https://install.meteor.com | /bin/sh`
+1. `curl https://install.meteor.com | /bin/sh` ([temporary Windows solution](http://win.meteor.com/))
 2. `cd devcon-2013`
 3. `meteor`
 4. Check out `localhost:3000`
